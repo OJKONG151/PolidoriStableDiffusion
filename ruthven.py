@@ -21,7 +21,7 @@ def generate_image_from_text(text, output_path):
     image.save(output_path)
 
 if __name__ == "__main__":
-    pdf_path = "/Users/omjoshi/UNT/Semester 2/ENGL 1325/Readings/complete_text_vampyre.pdf"
+    pdf_path = #filepath""
     output_image_path = "output_image.png"
 
     text = extract_text_from_pdf(pdf_path)
